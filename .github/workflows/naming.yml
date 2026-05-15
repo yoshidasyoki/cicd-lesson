@@ -5,5 +5,5 @@ jobs:
     name: Super Useful Job
     runs-on: ubuntu-latest
     steps:
-      -name: Amazing Script
-      run: echo "Hello"
+      - name: Amazing Script
+        run: echo "Hello"
