@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          set -x
-          date
-          hostname
+          echo "::group::Show environment variables"
+          printenv
+          echo "::endgroup::"
